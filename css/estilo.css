@@ -1,0 +1,2321 @@
+*{
+    margin:0;
+    padding:0;
+
+    box-sizing: border-box;
+}
+
+html,body{
+    height: auto;
+    font-family: 'Clicker Script', cursive;
+    font-family: 'Poppins', sans-serif;
+
+    max-width: 100%;
+
+    overflow-x: hidden;
+
+    
+}
+
+body{
+    overflow-y: hidden;
+    background-color:  #ffa3a3;
+}
+
+.clear{
+    clear: both;
+}
+
+@font-face{
+    font-family: clicker;
+    src:url('../fonts/Clicker_Script/ClickerScript-Regular.ttf');
+}
+
+@font-face{
+    font-family:poppins;
+    src:url('../fonts/Poppins/Poppins-Regular.ttf');
+}
+
+@font-face{
+    font-family:poppins-semi;
+    src:url('../fonts/Poppins/Poppins-SemiBold.ttf')
+}
+/* Formatacao header */
+
+header{
+
+    background-image:url('fotos/menino/1.png');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.header-contato{
+
+    background-image:url('../imgs/bebe_baby.jpg');
+    background-size: cover;
+    background-position:center;
+    width: 100%;
+}
+
+.header-galeria{
+
+    background-image:url('../imgs/bebe_baby.jpg');
+    background-size: cover;
+    background-position:center;
+}
+
+.header-sobre{
+
+    background-image:url('../imgs/bebe_baby.jpg');
+    background-size: cover;
+    background-position:center;
+}
+
+
+/* Formatacao logo */
+
+
+
+.cabecalho-contato{
+    width: 100%;
+    height: 250px;
+
+   background-color:rgba(0,0,0,0.60);
+   
+
+}
+
+.cabecalho{
+    width: 100%;
+    height: 1000px;
+
+   background-color:rgba(0,0,0,0.60);
+}
+
+
+.cabecalho-sobre{
+    width: 100%;
+    height: 250px;
+
+   background-color:rgba(0,0,0,0.60); 
+}
+
+.cabecalho-galeria{
+    width: 100%;
+    height: 250px;
+
+   background-color:rgba(0,0,0,0.60); 
+}
+
+.cabecalho-contato p{
+    display: inline;
+}
+
+.cabecalho-galeria p{
+    display: inline;
+}
+
+.cabecalho-sobre p{
+    display: inline;
+}
+
+.cabecalho p{
+    display: inline;
+}
+
+.cabecalho-contato .span1{
+    font-size: 100px;
+    color:#FFB7B7;
+    font-family: clicker, cursive;
+}
+
+.cabecalho-galeria .span1{
+    font-size: 100px;
+    color:#FFB7B7;
+    font-family: clicker, cursive;
+}
+
+.cabecalho-sobre .span1{
+    font-size: 100px;
+    color:#FFB7B7;
+    font-family: clicker, cursive;
+}
+
+.cabecalho .span1{
+    font-size: 100px;
+    color:#FFB7B7;
+    font-family: clicker, cursive;
+}
+
+
+.cabecalho-contato .span2{
+    font-size:100px;
+    color:#82A6D9;
+    font-family:clicker, cursive;
+}
+
+.cabecalho-galeria .span2{
+    font-size:100px;
+    color:#82A6D9;
+    font-family:clicker, cursive;
+}
+
+.cabecalho-sobre .span2{
+    font-size:100px;
+    color:#82A6D9;
+    font-family:clicker, cursive;
+}
+
+
+.cabecalho .span2{
+    font-size:100px;
+    color:#82A6D9;
+    font-family:clicker, cursive;
+}
+
+.cabecalho-contato .p1{
+    font-size:60px;
+    color:#FFB7B7;
+    font-family:poppins, cursive;
+    font-weight: 400;
+}
+
+.cabecalho-galeria .p1{
+    font-size:60px;
+    color:#FFB7B7;
+    font-family:poppins, cursive;
+    font-weight: 400;
+}
+
+
+.cabecalho-sobre .p1{
+    font-size:60px;
+    color:#FFB7B7;
+    font-family:poppins, cursive;
+    font-weight: 400;
+}
+
+.cabecalho .p1{
+    font-size:60px;
+    color:#FFB7B7;
+    font-family:poppins, cursive;
+    font-weight: 400;
+}
+
+.cabecalho-contato .p2{
+    font-size:60px;
+    color:#82A6D9;
+    font-family:poppins, cursive;
+    font-weight: 400;
+}
+
+.cabecalho-galeria .p2{
+    font-size:60px;
+    color:#82A6D9;
+    font-family:poppins, cursive;
+    font-weight: 400;
+}
+
+.cabecalho-sobre .p2{
+    font-size:60px;
+    color:#82A6D9;
+    font-family:poppins, cursive;
+    font-weight: 400;
+}
+
+.cabecalho .p2{
+    font-size:60px;
+    color:#82A6D9;
+    font-family:poppins, cursive;
+    font-weight: 400;
+}
+/* Fim fomatacao logo */
+
+/* Fomatacao menu */
+
+
+
+nav ul li{
+    list-style-type: white;
+    display: inline-block;
+}
+
+nav ul li a{
+    text-decoration:white;
+    color:#FFB7B7;
+    font-size:30px;
+
+    padding: 0 15px;
+
+    transition:0.2s ease-out;
+
+}
+
+nav ul li a:hover{
+    border-bottom:2px solid #FFB7B7 ;
+}
+
+/* Fim formatacao menu */
+
+/* Fomatacao div menu e logo */
+.logoemenu{
+    margin: 0 112px;
+    padding: 15px 0 0 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+/* Fim formatacao div menu e logo */
+
+/* Formatacao slogan */
+
+.slogan{
+    display: block;
+    width: 60%;
+    margin-top:220px;
+    margin-left: 112px;
+    text-align: left;
+}
+
+.slogan p{
+    color:white;
+    font-size: 100px;
+    font-family: poppins-semi;
+    text-align: left;
+}
+
+/* Fim formatacao slogan */
+
+/* Fomatacao botao wpp */
+
+.botao a{
+    position: fixed;
+    bottom:90px;
+    right: 30px;
+    z-index: 1000;
+   
+    width: 60px;
+    height: 60px;
+
+    animation: botao 2s infinite;
+
+}
+
+
+.botao img{
+   border-radius: 50%;
+}
+
+/* Formatacao motivacao */
+
+.motivacao{
+    text-align: center;
+    height: auto;
+
+    background-color: white;
+
+}
+
+.veja{
+    margin: 260px 0 150px 0 ;
+
+    position: relative;
+
+    top:-30px;
+}
+
+.motivacao  .veja a{
+    background-color:#ffffff;
+    padding: 25px 50px;
+
+    border-radius: 160px;
+
+    font-size: 30px;
+
+    text-decoration: white;
+
+    color:#ff9494;
+
+}
+
+
+.bloco{
+    width: 70%;
+    height: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+
+    margin:0px auto 0 auto;
+    
+}
+
+.bloco:nth-of-type(2){
+    margin-bottom:0px;
+}
+
+.bloco .imagem{
+    display: inline-block;
+    margin: 80px auto 50px auto ;
+
+}
+
+.bloco .texto1,.texto2 {
+    display: block;
+    width: 100%;
+    height: auto;
+    max-width: 1300px;
+    margin-bottom:50px;
+    margin: 0 auto;
+}
+
+.bloco .texto1,.texto2 p{
+    color:#3D77CA;
+    font-family: poppins;
+    font-size:28px;
+
+    margin-left: 20px;
+}
+
+.bloco .texto2{
+    height: auto;
+}
+
+/* Final */
+
+.final{
+    text-align: center;
+ 
+}
+
+/* Formatacao espaco */
+
+
+.espaco{
+    background-color: #ffa3a3;
+}
+
+.espaco h2{
+    color:white;
+    font-size:80px;
+
+    margin:0 0 100px 0;
+    
+    width: 100%;
+    
+ }
+
+
+
+ .espaco .rol-width{
+    overflow: hidden; 
+    
+    width:60%;
+    height: 800px;   
+    
+    position:relative;
+
+    margin:0px auto;
+    padding: 100px 0;
+    
+      border-radius: 40px;
+ }
+
+ .rolagem img{
+     position:absolute;
+     top:0;
+     left: 0;
+
+     opacity: 0;
+
+     width:100%;
+        
+    
+
+     animation:animacao 24s infinite;
+ }
+
+ .rolagem img:nth-of-type(2){
+
+    animation-delay:4s;
+}
+
+.rolagem img:nth-of-type(3){
+    animation-delay:8s;
+}
+
+.rolagem img:nth-of-type(4){
+    animation-delay:12s;
+}
+
+.rolagem img:nth-of-type(5){
+    animation-delay:16s;
+}
+
+.rolagem img:nth-of-type(6){
+    animation-delay:20s;
+}
+
+.rolagem img:nth-of-type(7){
+    animation-delay:24s;
+}
+
+
+
+
+ 
+ @keyframes animacao{
+     0%{
+         opacity: 0.15;
+     }
+
+     15%{
+         opacity: 1;
+
+         transform: scale(1.2,1.2);
+     }
+
+    50%{
+         opacity: 0;
+     }
+ }
+
+
+/* Formatacao contato */
+
+.contato-sec{
+    text-align:center;
+    
+    background-color: white;
+    
+}
+
+
+.contato-sec .itens{
+    width:40%;
+    height: auto;
+
+    margin-top:120px;
+
+    text-align: center;
+
+    float: left;
+
+    display: inline-block;
+
+    
+
+    
+}
+
+.contato-sec .info{
+    display: inline-block;
+    width: 100%;
+    height: 160px;
+}
+
+.contato-sec .info h2{
+    color:rgb(61, 119, 202);
+    font-size:60px;
+
+    padding-top:50px;
+    margin-bottom:0px;
+}
+
+.contato-sec .info p{
+   font-size: 20px;
+}
+
+.contato-sec .item-contato{
+    display:block;
+    margin: 5% 25%;
+
+    transition: 0.5s;
+
+    padding: 18px 0;
+
+    text-align: center;
+
+    width: 28%;
+}
+
+.contato-sec .img-link{
+    display: inline-block;
+   width: 208px;
+}
+
+
+.contato-sec .item-contato h2{
+    color:#FFB7B7;
+    
+
+    font-size:40px;
+
+    display: inline-block;
+
+    text-align: center;
+
+    transition: 0.5s;
+    
+}
+
+
+.contato-sec .item-contato:hover{
+
+    transform: scale(1.10,1.10);
+}
+
+.contato-sec .item-contato img{
+   display: block;
+   position: relative;
+   right: -80px;
+}
+
+
+
+
+/* MAPA */
+
+
+.mapa iframe{
+    width: 50%;
+    height: 500px;
+
+    float: right;
+
+    margin:240px 10% 200px 0;
+    
+}
+
+
+/* Formatacao sobre */
+
+.cont-sobre{
+    width: 100%;
+    height: auto;
+
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+}
+
+
+.cont-sobre .info-sobre{
+    display: inline-block;
+    width: 100%;
+    height: auto;
+
+ 
+}
+
+.cont-sobre .info-sobre h2{
+    color:rgb(61, 119, 202);
+    font-size:60px;
+
+    padding-top:60px;
+    margin-bottom:0px;
+    
+}
+
+.cont-sobre .texto-sobre{
+    text-align: center;
+}
+
+.cont-sobre .texto-sobre p{
+    color:#c56363;
+
+    font-size:24px;
+    text-align: justify;
+    margin:60px 30px 50px 30px;
+
+    width: 80%;
+    display: inline-block;
+
+    padding: 20px 30px;
+
+    border-radius: 50px;
+   
+}  
+
+.cont-sobre .produtos   h1{
+    text-align: center;
+   
+    margin:100px 0;
+
+    color:rgb(61, 119, 202);
+    font-size:60px;
+    
+    font-weight: bold;
+}
+
+.cont-sobre .produtos{
+   text-align:center;
+}
+
+.cont-sobre .fotos{
+    display: inline-block;
+    width:80%;
+}
+
+.cont-sobre .fotos img{
+    display: inline-block;
+    margin:20px 100px;
+}
+
+.cont-sobre .fotos img:nth-of-type(5){
+
+    position:relative;
+    top: 45px;
+}
+
+/* Formatacao depoimentos */
+
+.depoimento{
+    text-align: center;
+
+    background-color: white;
+}
+.depoimento .dep {
+   display: inline-block;
+   background-color: white;
+   
+}
+
+.depoimento .dep h2 {
+    color:rgb(61, 119, 202);
+    font-size:60px;
+
+    margin: 200px 0 100PX 0;
+}
+
+.depoimento .dep p{
+    display: inline-block;
+    width: 50%;
+    
+    text-align: justify;
+    padding:20px;
+
+    vertical-align: top;
+
+    margin-left:50px;
+    margin-bottom: 160px;
+
+
+    color:#c56363;
+
+    font-size: 20px;
+    
+}
+
+.depoimento .dep p:nth-of-type(4){
+    border:white;
+    background-color: white;
+    
+}
+
+.depoimento .dep span{
+    color:#c56363;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+
+/* Formatacao Galeria */
+.galeria{
+    text-align: center;
+
+    background-color: white;
+}
+
+.galeria nav{
+    margin:50px 0;
+   
+}   
+
+.galeria .content nav ul li a{
+    font-size: 26px;
+    color:#e07676;
+   
+    padding:7px 20px;
+
+    margin-top:40px;
+
+    font-weight: bold;
+}
+
+.galeria .content nav ul li a:hover{
+    border:none;
+    text-decoration: underline;
+}
+
+.galeria .content nav ul{
+    height: 50px;
+
+    
+}
+
+
+.content h2{
+    color:rgb(61, 119, 202);
+    font-size:100px;
+    margin-bottom:30px;
+}
+
+.content h3{
+    display:inline-block;
+    font-size: 32px;
+    color:#fda5a5;
+    margin-bottom:15px
+}
+
+.content h3:nth-of-type(2){
+    display:inline-block;
+    font-size: 32px;
+    color:rgb(61, 119, 202);
+    margin-bottom:15px
+}
+
+.content hr{
+    display: inline-block;
+    width:60%;
+
+    margin-bottom:8px
+}
+
+.content .hr-1{
+    display: inline-block;
+    width: 15%;
+}
+
+.content .fotos-roupas-menina .grid{
+    width:80%;
+    height: auto;
+
+    margin:0 auto;
+}
+
+.content .fotos-roupas-menino .grid2{
+    width:80%;
+    height: auto;
+
+    margin:0 auto;
+}
+
+.content .fotos-brinquedos .grid3{
+    width:80%;
+    height: auto;
+
+    margin:0 auto;
+}
+
+.content .fotos-roupas-menina .grid .img{
+   
+    margin: 7px 20px;
+
+    display: inline-block ;
+
+    background-color:green;
+}
+
+.content .fotos-roupas-menino .grid2 .img2{
+    
+
+    margin: 7px 20px;
+
+    display: inline-block ;
+
+    background-color:green;
+}
+
+.content .fotos-brinquedos .grid3 .img3{
+   
+    margin: 7px 20px;
+
+    display: inline-block ;
+
+    background-color:green;
+}
+
+.links {
+    font-size:7px;
+
+    
+
+}
+
+.links a{
+    color:black;
+    
+}
+/* FOTOS MENINAS */
+.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(1){
+    background-image:url('../imgs/galeria/MENINA/baby_charme-1.jpeg');
+    background-size:cover;
+
+    border:5px solid #fda5a5;
+
+    background-color: white;
+    margin:30px 20px;
+    
+    transition: 1s;
+    
+    
+
+    
+}
+
+.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(2){
+    background-image:url('../imgs/galeria/MENINA/2.png');
+    background-size:cover;
+
+    border:5px solid #fda5a5;
+
+    background-color: white;
+    margin:30px 20px;
+    
+}
+
+.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(3){
+    background-image:url('../imgs/galeria/MENINA/baby_charme-3.jpeg');
+    background-size:cover;
+
+    border:5px solid #fda5a5;
+
+    background-color: white;
+    margin:30px 20px;
+    
+}
+
+.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(4){
+    background-image:url('../imgs/galeria/MENINA/baby_charme-4.jpeg');
+    background-size:cover;
+
+    border:5px solid #fda5a5;
+
+    background-color: white;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(5){
+    background-image:url('../imgs/galeria/MENINA/baby_charme-5.jpeg');
+    background-size: cover;
+    background-color:white;
+
+    border:5px solid #fda5a5;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(6){
+    background-image:url('../imgs/galeria/MENINA/baby_charme-6.jpeg');
+    background-size:cover;
+
+    background-color: white;
+
+    border:5px solid #fda5a5;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(7){
+    background-image:url('../imgs/galeria/MENINA/baby_charme-7.jpeg');
+    background-size:cover;
+
+    background-color: white;
+
+    border:5px solid #fda5a5;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(8){
+    background-image:url('../imgs/galeria/MENINA/baby_charme-8.jpeg');
+    background-size:cover;
+
+    background-color: white;
+
+    border:5px solid #fda5a5;
+    margin:30px 20px;
+}
+.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(9){
+    background-image:url('../imgs/galeria/MENINA/baby_charme-9.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+    width: 390px;
+    height: 280px;
+
+    margin-top:60px;
+
+    border:5px solid #fda5a5;
+
+    background-color: white;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(10){
+    background-image:url('../imgs/galeria/MENINA/baby_charme-10.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+    border:5px solid #fda5a5;
+
+    width: 390px;
+    height: 280px;
+
+    margin-top:60px;
+
+    background-color: white;
+   margin:30px 20px;
+}
+
+.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(11){
+    background-image:url('../imgs/galeria/MENINA/baby_charme-11.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+    width: 390px;
+    height: 280px;
+
+    margin-top:60px;
+
+    border:5px solid #fda5a5;
+
+    background-color: white;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(12){
+    background-image:url('../imgs/galeria/MENINA/baby_charme-12.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+    width: 390px;
+    height: 280px;
+
+
+    border:5px solid #fda5a5;
+
+    background-color: white;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(13){
+    background-image:url('../imgs/galeria/MENINA/baby_charme-13.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+    width: 390px;
+    height: 280px;
+
+    border:5px solid #fda5a5;
+
+    background-color: white;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(14){
+    background-image:url('../imgs/galeria/MENINA/baby_charme-14.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+    width: 390px;
+    height: 280px;
+
+    border:5px solid #fda5a5;
+
+    background-color: white;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(15){
+    background-image:url('../imgs/galeria/MENINA/baby_charme-15.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+    width: 390px;
+    height: 280px;
+
+    border:5px solid #fda5a5;
+
+    background-color: white;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(16){
+    background-image:url('../imgs/galeria/MENINA/baby_charme-16.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+    width: 390px;
+    height: 280px;
+
+    border:5px solid #fda5a5;
+
+    background-color: white;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(17){
+    background-image:url('../imgs/galeria/MENINA/baby_charme-17.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+    width: 390px;
+    height: 280px;
+
+    border:5px solid #fda5a5;
+
+    background-color: white;
+
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(18){
+    background-image:url('../imgs/galeria/MENINA/baby_charme-18.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+    width: 390px;
+    height: 280px;
+
+    border:5px solid #fda5a5;
+
+    background-color: white;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(19){
+    background-image:url('../imgs/galeria/MENINA/baby_charme-19.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+    width: 390px;
+    height: 280px;
+
+    border:5px solid #fda5a5;
+
+    background-color: white;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(20){
+    background-image:url('../imgs/galeria/MENINA/baby_charme-20.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+    width: 390px;
+    height: 280px;
+
+    border:5px solid #fda5a5;
+
+    background-color: white;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(21){
+    background-image:url('../imgs/galeria/MENINA/baby_charme-21.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+    width: 390px;
+    height: 280px;
+
+    border:5px solid #fda5a5;
+
+    background-color: white;
+    margin:30px 20px;
+}
+
+/* FOTOS MENIN0S */
+
+.galeria .content .fotos-roupas-menino .grid2  .img2:nth-of-type(1){
+    background-image:url('../imgs/galeria/MENINO/baby_charme-22.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+    background-color: white;
+
+    border:5px solid rgb(61, 119, 202);
+    margin:30px 20px;
+}
+
+
+
+.galeria .content .fotos-roupas-menino .grid2 .img2:nth-of-type(2){
+    background-image:url('../imgs/galeria/MENINO/baby_charme-23.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+    background-color: white;
+
+    border:5px solid rgb(61, 119, 202);
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-roupas-menino .grid2  .img2:nth-of-type(3){
+    background-image:url('../imgs/galeria/MENINO/baby_charme-24.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+    background-color: white;
+
+    border:5px solid rgb(61, 119, 202);
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-roupas-menino .grid2  .img2:nth-of-type(4){
+    background-image:url('../imgs/galeria/MENINO/baby_charme-25.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+    background-color: white;
+
+    border:5px solid rgb(61, 119, 202);
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-roupas-menino .grid2  .img2:nth-of-type(5){
+    background-image:url('../imgs/galeria/MENINO/baby_charme-26.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+    background-color: white;
+
+    border:5px solid rgb(61, 119, 202);
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-roupas-menino .grid2  .img2:nth-of-type(6){
+    background-image:url('../imgs/galeria/MENINO/baby_charme-27.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+    background-color: white;
+
+    border:5px solid rgb(61, 119, 202);
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-roupas-menino .grid2  .img2:nth-of-type(7){
+    background-image:url('../imgs/galeria/MENINO/baby_charme-28.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+    background-color: white;
+
+    border:5px solid rgb(61, 119, 202);
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-roupas-menino .grid2  .img2:nth-of-type(8){
+    background-image:url('../imgs/galeria/MENINO/baby_charme-29.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+    background-color: white;
+
+    border:5px solid rgb(61, 119, 202);
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-roupas-menino .grid2  .img2:nth-of-type(9){
+    background-image:url('../imgs/galeria/MENINO/baby_charme-30.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+    
+
+    background-color: white;
+
+    border:5px solid rgb(61, 119, 202);
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-roupas-menino .grid2  .img2:nth-of-type(10){
+    background-image:url('../imgs/galeria/MENINO/baby_charme-31.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+    background-color: white;
+
+    border:5px solid rgb(61, 119, 202);
+    margin:30px 20px;
+}
+
+/* FOTOS BONECAS */
+
+
+.galeria .content .fotos-brinquedos .grid3 .img3{
+    background-image:url('../imgs/galeria/BRINQUEDOS/brinquedos_babycharme1.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+    background-color: white;
+
+    border:5px solid #fda5a5;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-brinquedos .grid3 .img3:nth-of-type(2){
+    background-image:url('../imgs/galeria/BRINQUEDOS/brinquedos_babycharme2.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+    background-color: white;
+
+    border:5px solid #fda5a5;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-brinquedos .grid3 .img3:nth-of-type(3){
+    background-image:url('../imgs/galeria/BRINQUEDOS/brinquedos_babycharme3.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+    background-color: white;
+
+    border:5px solid #fda5a5;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-brinquedos .grid3 .img3:nth-of-type(4){
+    background-image:url('../imgs/galeria/BRINQUEDOS/brinquedos_babycharme4.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+    background-color: white;
+
+    border:5px solid #fda5a5;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-brinquedos .grid3 .img3:nth-of-type(5){
+    background-image:url('../imgs/galeria/BRINQUEDOS/brinquedos_babycharme5.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+    background-color: white;
+
+    border:5px solid #fda5a5;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-brinquedos .grid3 .img3:nth-of-type(6){
+    background-image:url('../imgs/galeria/BRINQUEDOS/brinquedos_babycharme6.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+    background-color: white;
+
+    border:5px solid #fda5a5;
+    margin:30px 20px;
+}
+.galeria .content .fotos-brinquedos .grid3 .img3:nth-of-type(7){
+    background-image:url('../imgs/galeria/BRINQUEDOS/brinquedos_babycharme7.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+    background-color: white;
+
+    border:5px solid #fda5a5;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-brinquedos .grid3 .img3:nth-of-type(8){
+    background-image:url('../imgs/galeria/BRINQUEDOS/brinquedos_babycharme8.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+    background-color: white;
+
+    border:5px solid #fda5a5;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-brinquedos .grid3 .img3:nth-of-type(9){
+    background-image:url('../imgs/galeria/BRINQUEDOS/brinquedos_babycharme9.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+    background-color: white;
+
+    border:5px solid #fda5a5;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-brinquedos .grid3 .img3:nth-of-type(10){
+    background-image:url('../imgs/galeria/BRINQUEDOS/brinquedos_babycharme10.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+    background-color: white;
+
+    border:5px solid #fda5a5;
+    margin:30px 20px;
+}
+.galeria .content .fotos-brinquedos .grid3 .img3:nth-of-type(11){
+    background-image:url('../imgs/galeria/BRINQUEDOS/brinquedos_babycharme11.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+    background-color: white;
+
+    border:5px solid #fda5a5;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-brinquedos .grid3 .img3:nth-of-type(12){
+    background-image:url('../imgs/galeria/BRINQUEDOS/brinquedos_babycharme12.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+    background-color: white;
+
+    border:5px solid #fda5a5;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-brinquedos .grid3 .img3:nth-of-type(13){
+    background-image:url('../imgs/galeria/BRINQUEDOS/brinquedos_babycharme13.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+    background-color: white;
+
+    border:5px solid #fda5a5;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-brinquedos .grid3 .img3:nth-of-type(14){
+    background-image:url('../imgs/galeria/BRINQUEDOS/brinquedos_babycharme14.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+    background-color: white;
+
+    border:5px solid #fda5a5;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-brinquedos .grid3 .img3:nth-of-type(15){
+    background-image:url('../imgs/galeria/BRINQUEDOS/brinquedos_babycharme15.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+    background-color: white;
+
+    border:5px solid #fda5a5;
+    margin:30px 20px;
+}
+
+/* .galeria .content .fotos-brinquedos .grid3 .img3:nth-of-type(16){
+    background-image:url('../imgs/galeria/BRINQUEDOS/brinquedos_babycharme16.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+    background-color: white;
+
+    border:5px solid #fda5a5;
+    margin:30px 20px;
+} */
+
+.galeria .content .fotos-brinquedos .grid3 .img3:nth-of-type(17){
+    background-image:url('../imgs/galeria/BRINQUEDOS/brinquedos_babycharme17.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+    background-color: white;
+
+    border:5px solid #fda5a5;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-brinquedos .grid3 .img3:nth-of-type(18){
+    background-image:url('../imgs/galeria/BRINQUEDOS/brinquedos_babycharme18.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+    background-color: white;
+
+    border:5px solid #fda5a5;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-brinquedos .grid3 .img3:nth-of-type(19){
+    background-image:url('../imgs/galeria/BRINQUEDOS/brinquedos_babycharme19.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+    background-color: white;
+
+    border:5px solid #fda5a5;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-brinquedos .grid3 .img3:nth-of-type(20){
+    background-image:url('../imgs/galeria/BRINQUEDOS/brinquedos_babycharme20.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+    background-color: white;
+
+    border:5px solid #fda5a5;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-brinquedos .grid3 .img3:nth-of-type(21){
+    background-image:url('../imgs/galeria/BRINQUEDOS/brinquedos_babycharme21.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+    background-color: white;
+
+    border:5px solid #fda5a5;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-brinquedos .grid3 .img3:nth-of-type(22){
+    background-image:url('../imgs/galeria/BRINQUEDOS/brinquedos_babycharme22.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+    background-color: white;
+
+    border:5px solid #fda5a5;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-brinquedos .grid3 .img3:nth-of-type(23){
+    background-image:url('../imgs/galeria/BRINQUEDOS/brinquedos_babycharme23.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+    background-color: white;
+
+    border:5px solid #fda5a5;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-brinquedos .grid3 .img3:nth-of-type(24){
+    background-image:url('../imgs/galeria/BRINQUEDOS/brinquedos_babycharme24.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+    background-color: white;
+
+    border:5px solid #fda5a5;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-brinquedos .grid3 .img3:nth-of-type(25){
+    background-image:url('../imgs/galeria/BRINQUEDOS/brinquedos_babycharme25.png');
+    background-size:cover;
+    background-repeat:no-repeat;
+    background-position: center;
+
+
+    background-color: white;
+
+    border:5px solid #fda5a5;
+    margin:30px 20px;
+}
+
+.galeria .content .fotos-roupas-menina .grid .img{
+   width: 300px;
+   height: 429px;
+
+    transition: 0.5s;
+}
+
+.galeria .content .fotos-roupas-menina .grid .img:hover{
+    transform: scale(1.13,1.13);
+ }
+
+.galeria .content .fotos-roupas-menino .grid2 .img2{
+    width: 401px;
+    height: 287px;
+
+    transition: 0.5s;
+
+ }
+
+ .galeria .content .fotos-roupas-menino .grid2 .img2:hover{
+ 
+    transform: scale(1.13,1.13);
+     
+ }
+
+ .galeria .content .fotos-brinquedos .grid3 .img3{
+    width: 308px;
+    height: 270px;
+
+    transition: 0.5s;
+
+ }
+
+ .galeria .content .fotos-brinquedos .grid3 .img3:hover{
+    transform: scale(1.13,1.13);
+ }
+
+
+/* Formatacao footer */
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 100%;
+    height: 160px;
+
+    background-color:rgb(245, 245, 245);
+
+    padding:0 30px;
+}
+
+footer .submenu h5{
+    display: inline-block;
+    font-size:20px;
+
+    
+}
+
+footer .submenu a{
+    text-decoration: white;
+    color:black;
+
+    padding:0 30px;
+}
+
+
+
+
+
+/* RESPONSIVO */
+
+@media screen and (max-width:1780px){
+
+    .produtos h1{
+        margin-bottom: 100px;
+    }
+    
+    .header-sobre{
+        background-position: center;
+    }
+
+
+
+@media screen and (max-width:1585px){
+ .cabecalho .slogan p{
+     font-size:85px ;
+ }
+
+ .espaco .rol-width{
+    overflow: hidden; 
+    
+    width:60%;
+    height: 500px;
+ }   
+}
+
+
+
+
+
+
+@media  screen and (max-width:1285px){
+    
+    /* menu */
+    nav ul li a{
+        font-size: 22px;
+    }
+
+
+
+
+    .bloco p{
+        padding: 0 25px;
+    }
+
+    .bloco{
+        display: inline-block;
+    }
+
+    /*sobre*/
+
+    .produtos .fotos img{
+        width:240px;
+        margin: 30px 70px;
+    }
+
+    
+}
+
+@media screen and (max-width:1110px){
+    /* Header */
+
+    .contato-sec .info h2{
+        font-size: 75px;
+    }
+
+    header{
+        text-align: center;
+    }
+
+    header .logoemenu{
+        display: block;
+
+        margin: 0 2%;
+
+        
+    }
+
+    header .logo{
+        /* position: relative; */
+        /* right: -7px; */
+        /* top:-40px; */
+        display: inline-block;
+        width: 100%;
+    }
+
+    header .logoemenu .logo .span1{
+        font-size:160px;
+    }
+
+    header .logoemenu .logo .span2{
+        font-size:160px;
+    }
+    header .logoemenu .logo .p1{
+        font-size:0px;
+        visibility: hidden;
+    }
+    header .logoemenu .logo .p2{
+        font-size:0px;
+        visibility: hidden;
+    }
+
+    header{
+        background-position: center;
+    }
+
+    nav a{
+     display:block;
+    }
+
+    nav ul li a{
+        font-size: 48px;
+        padding: 0 30px;
+    }
+
+    nav,ul{
+      display: inline-block;
+        /* position: relative; */
+        /* top:-80px; */
+        /* right: 120px; */
+        width: 100%;
+        
+    }
+
+    .cabecalho{
+        height: 400px;
+    }
+
+    .cabecalho-sobre{
+        height: 400px;
+    }
+
+    .cabecalho-contato{
+        height: 400px;
+    }
+    
+    .cabecalho-galeria{
+        height: 400px;
+    }
+
+    /*bloco*/
+
+    .bloco{
+        display: inline-block;
+    }
+
+    .bloco:nth-of-type(2){
+        margin:0 0 100px 0;
+    }
+
+    .bloco p{
+        font-size: 34px;
+        text-align: center;
+    }
+
+    .bloco img{
+        width: 206px;
+        height: 206px;
+        
+    }
+
+    .bloco .imagem{
+        margin: 70px auto;
+    }
+
+    .slogan p{
+        font-size: 1px;
+        padding:0;
+   }
+
+   /* GALERIA */
+
+.galeria .content nav ul li{
+   display: block;
+
+}
+.galeria .content nav ul li{
+    display: block;
+    margin-bottom: 20px;
+}
+
+.galeria .content nav ul li a{
+    padding-top:20px;
+    padding-bottom: 20px;
+
+    font-size:45px;
+    
+
+   
+}
+
+
+
+ .galeria .content nav{
+    margin-top: 0;
+    margin-bottom: 30px;
+    height: 565px;
+ }
+
+ .galeria .content ul{
+    height: 510px;
+ }
+
+   .content h3{
+    display:inline-block;
+    font-size: 50px;
+    color:#fda5a5;
+    margin-bottom:30px;
+    margin-top:80px;
+}
+
+.content h3:nth-of-type(2){
+    display:inline-block;
+    font-size: 50px;
+    color:rgb(61, 119, 202);
+    margin-bottom:30px;
+    margin-top:80px;
+}
+
+.content hr{
+    display: inline-block;
+    width:38%;
+
+    margin-bottom:8px
+}
+
+.content .hr-1{
+    display: inline-block;
+    width: 5%;
+}
+
+.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(9),.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(10),.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(11),.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(12),.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(13),.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(14),.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(15),.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(16),.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(17),.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(18),.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(19),.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(20),.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(21){
+    width: 400px;
+    height: 287.5px;
+}
+
+.galeria .content .fotos-roupas-menino .grid2  .img2:nth-of-type(1),.galeria .content .fotos-roupas-menino .grid2  .img2:nth-of-type(2),.galeria .content .fotos-roupas-menino .grid2  .img2:nth-of-type(3),.galeria .content .fotos-roupas-menino .grid2  .img2:nth-of-type(4),.galeria .content .fotos-roupas-menino .grid2  .img2:nth-of-type(5),.galeria .content .fotos-roupas-menino .grid2  .img2:nth-of-type(6),.galeria .content .fotos-roupas-menino .grid2  .img2:nth-of-type(7),.galeria .content .fotos-roupas-menino .grid2  .img2:nth-of-type(8),.galeria .content .fotos-roupas-menino .grid2  .img2:nth-of-type(9),.galeria .content .fotos-roupas-menino .grid2  .img2:nth-of-type(10){
+
+    width: 400px;
+    height: 287.5px;
+    
+}
+
+.content h2{
+    color:rgb(61, 119, 202);
+    font-size:80px;
+    margin-bottom:30px;
+}
+
+/* SLIDE */
+
+.espaco .rol-width {
+    height: 500px;
+    width: 70%;
+}
+
+   
+
+   /* Contato */
+
+    .contato-sec .itens{
+        float: none;
+        width: 100%;
+    }
+
+    .contato-sec .item-contato{
+        display: block;
+        margin:0 auto;
+
+        padding: 45px 0;
+
+        width: auto;  
+    }
+
+    .contato-sec .item-contato img{
+        display: block;
+        position: relative;
+        right: -135px;
+     }
+
+     .contato-sec .item-contato:nth-of-type(1) img{
+        display: block;
+        position: relative;
+        right: -60px;
+     }
+
+     .contato-sec .item-contato:nth-of-type(4) img{
+        display: block;
+        position: relative;
+        right: -127px;
+     }
+
+    .contato-sec .item-contato .img-link{
+        width: auto;
+    }
+
+    .contato-sec .item-contato .img-link h2{
+        font-size: 62px;
+    }
+
+    .contato-sec .mapa{
+        float: none;
+    }
+
+   .contato-sec .info h2{
+       padding-left: 15px;
+       padding-right: 15px;
+       margin-bottom: 0px;
+   }
+
+
+   .contato-sec .mapa iframe{
+       width: 100%;
+
+       margin: 100px 0;
+   }
+.botao a img{
+    width: 100px;
+    height: 100px;
+
+    position: relative;
+    left: -30px;
+    top:-80px;
+}
+
+
+
+    /* Footer */
+
+    
+
+    footer img{
+        width: 240px;
+    }
+
+    
+
+    footer .submenu a{
+        font-size: 16px;
+        margin-left:30px;
+        margin-top:7px;
+
+      
+
+    }
+
+    footer .submenu h5 {
+       display:block;
+       padding:0 0 8px 0;
+       
+
+    }
+
+    footer p{
+        font-size: 20px;
+    }
+
+    footer{
+        position: relative;
+    }
+    
+
+
+   .cont-sobre .produtos h1{
+        font-size: 80px;
+        margin-bottom: 100px;
+    }
+
+    .cont-sobre .produtos .fotos img{
+        width: 200px;
+    }
+
+    .cont-sobre .fotos img:nth-of-type(5){
+
+        position:relative;
+        top: 42px;
+    }
+
+   
+
+    .cont-sobre .info-sobre h2{
+        font-size: 60px;
+        margin-bottom:50px;
+    }
+
+    .cont-sobre .texto-sobre p{
+        font-size:28px ;
+        margin-top:25px;
+    }
+
+    
+    .depoimento .dep h2{
+       font-size: 60px;
+       margin-bottom:50px;
+    }
+
+    .depoimento .dep p{
+        margin-left:0;
+        font-size: 23px;
+        margin-bottom:65px;
+
+        width: 70%;
+     }
+}
+
+
+
+@media screen and (max-width:870px){
+    /* Header */
+
+    .cabecalho{
+        height: 400px;
+    }
+     
+    header .logoemenu .logo .span1{
+        font-size:160px;
+    }
+
+    header .logoemenu .logo .span2{
+        font-size:160px;
+    }
+    header .logoemenu .logo .p1{
+        font-size:0px;
+        visibility: hidden;
+    }
+    header .logoemenu .logo .p2{
+        font-size:0px;
+        visibility: hidden;
+    }
+
+
+    nav ul li a{
+        font-size: 42px;
+        
+        position: relative;
+        top:-40px;
+        padding:20px 10px;
+
+        margin:0 10px;
+       
+
+       
+    }
+
+    /* Depoimento */
+
+
+     .motivacao  .veja a{
+        font-size: 34px;
+    }
+    /* Bloco */
+
+    .bloco{
+        text-align: center;
+    }
+
+    .bloco:nth-of-type(1) p{
+        margin-right: 40px;
+    }
+    .bloco p{
+        font-size: 28px;
+        text-align: center;
+
+        padding: 0;
+        margin:0;
+    }
+
+       /* Galeria */
+    .galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(9),.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(10),.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(11),.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(12),.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(13),.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(14),.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(15),.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(16),.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(17),.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(18),.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(19),.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(20),.galeria .content .fotos-roupas-menina .grid  .img:nth-of-type(21){
+        width: 400px;
+        height: 287.5px;
+        margin-left:2px;
+    }
+    
+    .galeria .content .fotos-roupas-menino .grid2  .img2:nth-of-type(1),.galeria .content .fotos-roupas-menino .grid2  .img2:nth-of-type(2),.galeria .content .fotos-roupas-menino .grid2  .img2:nth-of-type(3),.galeria .content .fotos-roupas-menino .grid2  .img2:nth-of-type(4),.galeria .content .fotos-roupas-menino .grid2  .img2:nth-of-type(5),.galeria .content .fotos-roupas-menino .grid2  .img2:nth-of-type(6),.galeria .content .fotos-roupas-menino .grid2  .img2:nth-of-type(7),.galeria .content .fotos-roupas-menino .grid2  .img2:nth-of-type(8),.galeria .content .fotos-roupas-menino .grid2  .img2:nth-of-type(9),.galeria .content .fotos-roupas-menino .grid2  .img2:nth-of-type(10){
+    
+        width: 400px;
+        height: 287.5px;
+        margin-left:2px;
+        
+    }
+
+    .content hr{
+        display: inline-block;
+        width:10%;
+    
+        margin-bottom:8px
+    }
+    
+    .content .hr-1{
+        display: inline-block;
+        width: 5%;
+    }
+
+    .cont-sobre{
+        height: auto;
+    }
+
+    
+
+    /* Slide */
+    
+    .espaco .rol-width{
+        overflow: hidden; 
+        
+        width:55%;
+        height: 600px;   
+        
+        position:relative;
+    
+        margin:100px auto 30px auto;
+        
+         
+     }
+
+     .espaco{
+        height: auto;
+    }
+
+   .espaco .rol-width{
+        height: 500px;
+        width: 100%;
+
+        border-radius: 40px;
+    }
+
+    /* Footer */
+
+    footer .submenu a{
+        font-size: 18px;
+        margin-left:30px;
+        margin-top:7px;
+
+    }
+
+    footer p{
+        font-size: 15px;
+    }
+
+    footer img{
+        width: 160px;
+    }
+
+}
+
+@media screen and (max-width:822px){
+    
+    html{
+        overflow-x: hidden;
+    }
+
+    /* depoimento */
+    .depoimento .dep h2{
+        font-size: 60px;
+        
+        margin-bottom:50px;
+     }
+
+
+    .contato-sec .info h2{
+        color:rgb(61, 119, 202);
+        font-size:55px;
+    }
+
+   
+}
+
+@media screen and (max-width:660px){
+    .contato-sec .itens .item-contato{
+        margin:50px 0px 50px 0px;
+    }
+
+    .contato-sec .itens .item-contato:nth-of-type(1){
+        margin:50px 35px 50px 35px;
+    }
+
+    .espaco h2{
+        font-size: 54px;
+}
+
+@media screen and (max-width:580px){
+    .cont-sobre{
+        height: auto;
+    }
+
+    .cont-sobre .texto-sobre p{
+        font-size: 22px;
+    }
+    
+   .cont-sobre .produtos h1{
+        font-size: 60px;
+        margin: 30px 0;
+    }
+
+    .cont-sobre .produtos .fotos img{
+        width: 150px;
+       
+    }
+
+    .depoimento .dep h2{
+        font-size: 40px;
+        margin-top:30px;
+     }
+
+     .depoimento .dep p{
+        font-size: 16px;
+        margin-bottom:70px;
+
+        text-align: left;
+
+     }
+
+
+     .cont-sobre .fotos img{
+        margin: 30px 30px;
+    }
+
+    .motivacao  .veja a{
+      
+        font-size: 25px;
+    
+    }
+
+     .botao a img{
+        position: relative;
+        left:-20px;
+    }
+
+    .rol-width{
+        width: 100%;
+        margin:0;
+    }
+    
+    .rol-width img{
+        width: 100%;
+    }
+
+    footer .submenu a{
+        font-size: 15px;
+    }
+
+    footer .submenu h5{
+        font-size: 15px;
+    }
+
+   
+}
